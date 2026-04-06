@@ -1,0 +1,12 @@
+name: opencv
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda-forge::opencv
+  - ipykernel
+  - matplotlib
+  - conda-forge::imageio-ffmpeg
+  - imageio
+prefix: /Users/juliechen/miniconda3/envs/opencv
